@@ -1,0 +1,13 @@
+{
+  "identifier": "contentin-linkedin",
+  "name": "ContentIn for Agents",
+  "version": "1.0.1",
+  "author": "ContentIn",
+  "authorUrl": "https://contentin.io",
+  "category": "productivity",
+  "cloudEndpoint": "https://mcp.contentin.io/mcp-server",
+  "description": "Give your AI agent your LinkedIn voice, your own material, what worked on your account and ICP-scored leads. Schedule and publish through LinkedIn's official API. You confirm every post.",
+  "homepage": "https://contentin.io/linkedin-for-ai-agents/",
+  "icon": "https://contentin.io/contentin-logo.png",
+  "tags": ["linkedin", "ai-agents", "content-creation", "ghostwriting", "personal-branding", "social-media", "scheduling", "lead-generation", "marketing"]
+}
