@@ -7,7 +7,6 @@ metadata:
   author: ContentIn
   version: "1.0.0"
   homepage: https://contentin.io/linkedin-for-ai-agents/
-allowed-tools: mcp__contentin__get_account_status mcp__contentin__get_voice_context mcp__contentin__list_posts mcp__contentin__get_post_analytics
 ---
 
 # ContentIn for LinkedIn

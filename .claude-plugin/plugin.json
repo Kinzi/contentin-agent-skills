@@ -1,7 +1,7 @@
 {
   "name": "contentin-linkedin",
   "displayName": "ContentIn for LinkedIn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Write, schedule, publish and measure LinkedIn posts in your own voice from your ContentIn account. Two skills plus the ContentIn MCP server (OAuth sign-in). Posts go out through LinkedIn's official API only after you confirm the text.",
   "author": {
     "name": "ContentIn",
@@ -11,16 +11,18 @@
   "homepage": "https://contentin.io/linkedin-for-ai-agents/",
   "repository": "https://github.com/Kinzi/contentin-agent-skills",
   "license": "MIT",
-  "keywords": ["linkedin", "content", "ghostwriting", "social-media", "scheduling", "leads", "contentin"],
+  "keywords": [
+    "linkedin",
+    "content",
+    "ghostwriting",
+    "social-media",
+    "scheduling",
+    "leads",
+    "contentin"
+  ],
   "icon": "./assets/icon.png",
   "documentationUrl": "https://contentin.io/linkedin-mcp-server/setup/",
   "supportUrl": "https://contentin.io/support/",
   "privacyPolicyUrl": "https://www.iubenda.com/privacy-policy/58097432",
-  "termsOfServiceUrl": "https://contentin.io/blog/linkedin-mcp-terms-of-service/",
-  "mcpServers": {
-    "contentin": {
-      "type": "http",
-      "url": "https://mcp.contentin.io/mcp-server"
-    }
-  }
+  "termsOfServiceUrl": "https://contentin.io/blog/linkedin-mcp-terms-of-service/"
 }

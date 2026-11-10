@@ -1,5 +1,5 @@
 // Fragment for ~/.openclaw/openclaw.json (JSON5). Merge into your existing "mcp" block.
-// Export CONTENTIN_MCP_KEY in the gateway's environment; the value is interpolated at load.
+// Replace PASTE_YOUR_CONTENTIN_KEY with a key from app.contentin.io, Profiles, Connections.
 // Do not set auth: "oauth" together with this header; OpenClaw ignores static headers while OAuth is on.
 {
   mcp: {
@@ -7,7 +7,7 @@
       contentin: {
         url: "https://mcp.contentin.io/mcp-server",
         transport: "streamable-http",
-        headers: { "X-MCP-Key": "${CONTENTIN_MCP_KEY}" },
+        headers: { "X-MCP-Key": "PASTE_YOUR_CONTENTIN_KEY" },
         requestTimeoutMs: 120000,
         connectionTimeoutMs: 10000,
         sslVerify: true,

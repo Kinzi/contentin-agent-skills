@@ -4,7 +4,7 @@
       "type": "http",
       "url": "https://mcp.contentin.io/mcp-server",
       "headers": {
-        "X-MCP-Key": "${CONTENTIN_MCP_KEY}"
+        "X-MCP-Key": "PASTE_YOUR_CONTENTIN_KEY"
       }
     }
   }
