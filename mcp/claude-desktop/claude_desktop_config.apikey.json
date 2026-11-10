@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "contentin": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote@0.16.5",
+        "https://mcp.contentin.io/mcp-server",
+        "--header",
+        "X-MCP-Key:${CONTENTIN_MCP_KEY}",
+        "--transport",
+        "http-only"
+      ],
+      "env": {
+        "CONTENTIN_MCP_KEY": "<your key>"
+      }
+    }
+  }
+}

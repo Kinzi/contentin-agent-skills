@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "contentin": {
+      "httpUrl": "https://mcp.contentin.io/mcp-server",
+      "headers": {
+        "X-MCP-Key": "<your key>"
+      },
+      "timeout": 120000
+    }
+  }
+}

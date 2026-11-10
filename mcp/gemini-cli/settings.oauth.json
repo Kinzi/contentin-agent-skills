@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "contentin": {
+      "httpUrl": "https://mcp.contentin.io/mcp-server",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

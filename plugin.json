@@ -1,0 +1,15 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "contentin-linkedin",
+  "version": "1.0.0",
+  "description": "Write, schedule, publish and measure LinkedIn posts in your own voice from your ContentIn account. Two skills plus the ContentIn MCP server. Posts go out through LinkedIn's official API only after you confirm the text.",
+  "author": {
+    "name": "ContentIn",
+    "email": "support@contentin.io",
+    "url": "https://contentin.io"
+  },
+  "homepage": "https://contentin.io/linkedin-for-ai-agents/",
+  "repository": "https://github.com/Kinzi/contentin-agent-skills",
+  "license": "MIT",
+  "keywords": ["linkedin", "content", "ghostwriting", "social-media", "scheduling", "leads", "contentin"]
+}

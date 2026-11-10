@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "contentin": {
+      "type": "http",
+      "url": "https://mcp.contentin.io/mcp-server"
+    }
+  }
+}

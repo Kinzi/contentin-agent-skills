@@ -1,0 +1,5 @@
+# ~/.codex/config.toml (or .codex/config.toml in a trusted project)
+# Export CONTENTIN_MCP_KEY in your shell; Codex sends it as the X-MCP-Key header.
+[mcp_servers.contentin]
+url = "https://mcp.contentin.io/mcp-server"
+env_http_headers = { "X-MCP-Key" = "CONTENTIN_MCP_KEY" }

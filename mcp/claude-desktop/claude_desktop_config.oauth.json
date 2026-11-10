@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "contentin": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote@0.16.5",
+        "https://mcp.contentin.io/mcp-server",
+        "--transport",
+        "http-only"
+      ]
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "contentin-agent-skills",
+  "version": "1.0.0",
+  "description": "ContentIn for LinkedIn: write, schedule, publish and measure LinkedIn posts in your own voice through the ContentIn MCP server. Includes the contentin-linkedin and contentin-linkedin-leads skills. Sign in with ContentIn when prompted.",
+  "mcpServers": {
+    "contentin": {
+      "httpUrl": "https://mcp.contentin.io/mcp-server",
+      "oauth": {
+        "enabled": true
+      },
+      "timeout": 120000
+    }
+  }
+}
