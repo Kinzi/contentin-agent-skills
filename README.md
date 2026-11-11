@@ -40,8 +40,8 @@ Server URL for every client: `https://mcp.contentin.io/mcp-server`
 | **Cursor** | Copy `mcp/cursor/mcp.oauth.json` to `.cursor/mcp.json` (project) or `~/.cursor/mcp.json`, then sign in from the contentin entry in Cursor's MCP settings. |
 | **VS Code** | Copy `mcp/vscode/mcp.oauth.json` to `.vscode/mcp.json`, or run "MCP: Add Server" and paste the URL. |
 | **Gemini CLI** | `gemini extensions install https://github.com/Kinzi/contentin-agent-skills` (brings the server and both skills), then `/mcp auth contentin`. Or merge `mcp/gemini-cli/settings.oauth.json` into `~/.gemini/settings.json`. |
-| **OpenClaw** | `openclaw mcp set contentin '{"url":"https://mcp.contentin.io/mcp-server","transport":"streamable-http","auth":"oauth"}'` then `openclaw mcp login contentin`. Or merge `mcp/openclaw/openclaw.oauth.json5`. |
-| **Codex CLI** | Add `mcp/codex/config.oauth.toml` to `~/.codex/config.toml`, then `codex mcp login contentin`. |
+| **OpenClaw** | `openclaw mcp set contentin '{"url":"https://mcp.contentin.io/mcp-server","transport":"streamable-http","auth":"oauth"}'` then `openclaw mcp login contentin`. Or merge the JSON5 fragment in [`mcp/openclaw/openclaw.oauth.md`](mcp/openclaw/openclaw.oauth.md). |
+| **Codex CLI** | Add the TOML block from [`mcp/codex/config.oauth.md`](mcp/codex/config.oauth.md) to `~/.codex/config.toml`, then `codex mcp login contentin`. |
 | **n8n and scripts** | Create an API key in ContentIn under Profiles, Connections ("Connect AI clients"). In n8n add an MCP Client node, endpoint = the URL, transport HTTP Streamable, Authentication = Header Auth with name `X-MCP-Key` and the key as value. |
 
 API keys work in every client that accepts headers: send `X-MCP-Key: <your key>`. The `*.apikey.*` files in `mcp/` show the exact shape per client. Each key or OAuth grant is bound to one ContentIn profile, which you pick when you connect. Revoke any time under Profiles, Connections, Connected apps.

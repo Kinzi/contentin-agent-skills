@@ -5,7 +5,7 @@ license: MIT
 compatibility: Requires the ContentIn MCP server connected in the agent (https://mcp.contentin.io/mcp-server, Streamable HTTP, OAuth or X-MCP-Key header). Network access to mcp.contentin.io.
 metadata:
   author: ContentIn
-  version: "1.0.0"
+  version: "1.0.2"
   homepage: https://contentin.io/linkedin-for-ai-agents/
 ---
 

@@ -1,7 +1,7 @@
 {
   "name": "contentin-linkedin",
   "displayName": "ContentIn for LinkedIn",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Write, schedule, publish and measure LinkedIn posts in your own voice from your ContentIn account. Two skills plus the ContentIn MCP server (OAuth sign-in). Posts go out through LinkedIn's official API only after you confirm the text.",
   "author": {
     "name": "ContentIn",

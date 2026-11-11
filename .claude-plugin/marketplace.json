@@ -6,7 +6,7 @@
     "url": "https://contentin.io"
   },
   "description": "ContentIn for Agents: LinkedIn writing, scheduling, analytics and leads for your AI agent, in your own voice.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "plugins": [
     {
       "name": "contentin-linkedin",
