@@ -4,7 +4,7 @@ Agent skills and MCP configs that connect Claude, ChatGPT, Claude Code, Cursor, 
 
 Your agent can already write. On its own it writes like everyone else's agent. Connected to ContentIn it gets your voice and your own stories and numbers (so it stops inventing), what worked on your account, the people who engaged with your posts scored against your ideal customer, and a safe last mile: nothing goes out without your confirmation.
 
-**Launching on Product Hunt on 26 November 2026:** [ContentIn for Agents](https://www.producthunt.com/posts/contentin-for-agents).
+**Launching on Product Hunt on 26 November 2026.** [Follow ContentIn on Product Hunt](https://www.producthunt.com/products/contentin) to get notified when it goes live.
 
 ## What is in this repo
 
